@@ -1,0 +1,43 @@
+body{
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.app{
+    background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+    padding: 50px;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+
+}
+
+#btnGet{
+    padding: 20px;
+    border: none;
+    box-shadow: 3px 3px 5px;
+    border-radius: 20px;
+    color: white;
+    background: #0093E9;
+    margin-bottom: 30px;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+#displayContainer{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.coord{
+    margin: 5px;
+}
+
