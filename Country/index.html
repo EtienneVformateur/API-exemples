@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Country</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app">
+      <div class="displayParameter">
+        <input type="text" id="inputFilter" placeholder="Rechercher" />
+        <div class="rangeContainer">
+          <input type="range" id="inputRange" value="10" max="250"/>
+          <span id="displayRange">10</span>
+        </div>
+        <div class="btnContainer">
+            <button class="btn" id="croissant">Tri croissant</button>
+            <button class="btn" id="decroissant">Tri décroissant</button>
+            <button class="btn" id="alphabetique">Tri alphabétique</button>
+        </div>
+      </div>
+      <div class="countriesDisplay">
+        <div class="countryDisplay">
+            <img src="https://mainfacts.com/media/images/coats_of_arms/gl.svg" alt="flag pays">
+            <div class="info">
+                <span class="displayName">France</span>
+                <span class="displayCapital">Paris</span>
+                <span class="displayPopulation">Population :</span>
+            </div>
+        </div>
+        <div class="countryDisplay">
+            <img src="https://mainfacts.com/media/images/coats_of_arms/gl.svg" alt="flag pays">
+            <div class="info">
+                <span class="displayName">France</span>
+                <span class="displayCapital">Paris</span>
+                <span class="displayPopulation">Population :</span>
+            </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

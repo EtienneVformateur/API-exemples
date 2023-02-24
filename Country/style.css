@@ -1,0 +1,55 @@
+.displayParameter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.rangeContainer{
+    padding: 15px;
+}
+.countriesDisplay{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.countryDisplay{
+    margin: 10px;
+    width: 30vw;
+    text-align: center;
+    background-color: black;
+    color:white;
+    padding: 5px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+
+}
+
+img{
+    height: auto;
+   
+    width: 20vw;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+.displayName{
+    font-size: 1.3rem;
+    padding: 5px;
+}
+
+.displayCapital{
+    padding: 5px;
+}
+
+.displayPopulation{
+    padding: 5px;
+}
